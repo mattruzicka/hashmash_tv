@@ -1,1 +1,11 @@
+<br /><br />
 <%= render "form" %>
+
+<div class="clear">
+<br /><br />
+<h1 style="text-align: center">
+  <%= form_tag("/emails/save") do %>
+    <%= text_field_tag "email", nil, placeholder: "When HashMash.me is ready" %>
+    <%= submit_tag "Email Me", class: "btn btn-success btn-large" %>
+  <% end %>
+</h1>

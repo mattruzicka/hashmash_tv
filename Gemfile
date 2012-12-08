@@ -9,6 +9,7 @@ gem 'sqlite3'
 gem 'thin'
 gem 'heroku'
 gem 'bootstrap-sass', '~> 2.2.1.1'
+gem 'instagram', '~> 0.8.5'
 
 # Gems used only for assets and not required
 # in production environments by default.

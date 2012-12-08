@@ -1,7 +1,12 @@
 Hashmashtv::Application.routes.draw do
-  get "tags/show"
+ # post "tags/show"
   get "tags/edit"
   post "tags/update"
+  post "emails/save"
+  
+  match "/tags/:tag" => "tags#show"
+  match "/tags" => "tags#edit"
+  match "/:tag" => "tags#update"
   
   root to: "tags#edit"
 
