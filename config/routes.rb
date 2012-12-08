@@ -1,4 +1,10 @@
 Hashmashtv::Application.routes.draw do
+  get "tags/show"
+  get "tags/edit"
+  post "tags/update"
+  
+  root to: "tags#edit"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

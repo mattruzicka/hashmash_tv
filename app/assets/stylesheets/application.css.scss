@@ -11,3 +11,20 @@
  *= require_self
  *= require_tree .
  */
+ 
+ $bodyBackground: #333;
+ $textColor: white;
+ @import "bootstrap";
+
+h1 {
+  font-size: 40px;
+}
+
+.hash {
+  float: left;
+}
+
+.container {
+  width: 575px;
+  margin: 100px auto 0 auto;
+}
