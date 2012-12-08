@@ -8,5 +8,5 @@ class EmailsController < ApplicationController
       redirect_to '/tags/fail'
     end
   end
-  
+   
 end
