@@ -5,11 +5,11 @@ gem 'rails', '3.2.9'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-gem 'sqlite3'
 gem 'thin'
 gem 'heroku'
 gem 'bootstrap-sass', '~> 2.2.1.1'
 gem 'instagram', '~> 0.8.5'
+gem 'pg'
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,6 +22,11 @@ group :assets do
 
   gem 'uglifier', '>= 1.0.3'
 end
+
+group :development do 
+  gem 'sqlite3'
+end
+
 
 gem 'jquery-rails'
 
