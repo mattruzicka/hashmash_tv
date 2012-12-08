@@ -9,6 +9,6 @@ class TagsController < ApplicationController
 
   def update
     @tag = params[:tag]
-    puts @tag
+    render show
   end
 end
