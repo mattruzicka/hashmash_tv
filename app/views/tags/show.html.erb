@@ -3,10 +3,10 @@
     <div class="active item">
       <%=image_tag(@data.last.images.standard_resolution.url)%>
     </div>
-    <% @data.each do |d| %>
-    <div class="item">
-      <%= image_tag(d.images.standard_resolution.url) %>
-    </div>
+    <% @data.each do |data| %>
+      <div class="item">
+        <%= image_tag(data.images.standard_resolution.url) %>
+      </div>
     <% end %>
   </div>
 </div>
