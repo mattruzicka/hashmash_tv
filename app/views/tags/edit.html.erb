@@ -4,11 +4,5 @@
 <div class="clear">
 <br /><br />
 <h1 style="text-align: center">
-  <%= form_tag("/emails/save") do %>
-    <%= submit_tag "Email Me", class: "btn btn-primary btn-large" %>
-    <%= text_field_tag "email", nil, placeholder: "when HashMash.me is ready." %>
-  <% end %>
+  <%= button_tag "What is hashmash.me?", class: "btn btn-primary btn-large" %>
 </h1>
-<h4 style="text-align: center">
-  <%= link_to "view an example hashmash.me profile", "http://hashmash.me/mattruzicka", target: "_blank" %> 
-</h4>
